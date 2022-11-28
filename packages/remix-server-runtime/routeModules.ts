@@ -1,10 +1,9 @@
 import type { ComponentType } from "react";
-import type { Location } from "react-router-dom";
+import type { Location, Params } from "react-router-dom";
 
 import type { AppLoadContext, AppData } from "./data";
 import type { LinkDescriptor } from "./links";
 import type { RouteData } from "./routeData";
-import type { Params } from "./router";
 import type { Route } from "./routes";
 import type { SerializeFrom } from "./serialize";
 
